@@ -1,0 +1,36 @@
+<style>
+  header{
+    font-family: cursive;
+    color: yellow;
+    z-index: 1;
+    background-color: grey; top: 0px; left: 0px; right: 0px;
+    position: fixed;
+    margin-left: 30px;
+  }
+  nav{
+    position: absolute;
+    left: 300px;
+    top: 30px;
+  }
+  #first{
+    z-index: -1;
+    position: absolute;
+    top: 250px;
+  }
+  #second{
+    z-index: -1;
+    position: absolute;
+    top: 420px;
+  }
+  #third{
+    z-index: -1;
+    position: absolute;
+    top: 590px;
+  }
+  footer{
+    z-index: -1;
+    position: absolute;
+    top: 790px;
+    left: 460px;
+  }
+</style>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+    <style>
+      header{
+        font-family: 'Do Hyeon', sans-serif;
+        z-index: 1;
+        background-color: #1a1a1a; top: 0px; left: 0px; right: 0px;
+        position: fixed;
+        }
+      nav{
+        position: absolute;
+        left: 350px;
+        top: 42px;
+        }
+      #add{
+        font-family: 'Do Hyeon', sans-serif;
+        z-index: -1;
+        position: absolute;
+        top: 200px;
+        left: 1200px;
+        text-align: center;
+        }
+      #first{
+        font-family: 'Do Hyeon', sans-serif;
+        z-index: -1;
+        position: absolute;
+        top: 170px;
+        }
+      #second{
+        font-family: 'Do Hyeon', sans-serif;
+        z-index: -1;
+        position: absolute;
+        top: 400px;
+        }
+      #third{
+        font-family: 'Do Hyeon', sans-serif;
+        z-index: -1;
+        position: absolute;
+        top: 580px;
+        }
+      footer{
+        font-family: 'Do Hyeon', sans-serif;
+        z-index: -1;
+        position: absolute;
+        top: 1250px;
+        left: 370px;
+        }
+      ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #1a1a1a;
+        }
+      li{
+        float: left;
+        }
+      li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 15px 17px;
+        text-decoration: none;
+        }
+      li a:hover{
+        background-color: #1a1a1a;
+        }
+    </style>
+    <title>Basketball Encyclopedia</title>
+    <meta author="ABHINAV SHARMA"/>
+  </head>
+  <body style="background-color: #c2c2a3">
+    <header>
+      <a href="index.html">
+      <img src="logo.jpg" height="110px" width="180px" alt="LOGO" style="margin-left: 65px; margin-bottom: 15px; margin-top: 15px;"/>
+      </a>
+      <nav>
+        <h4>
+          <ul>
+            <li><a class="active" href="#">HOME</a></li>
+            <li><a href="bbintro.html">INTRODUCTION</a></li>
+            <li><a href="contactus.html">CONTACT US</a></li>
+          </ul>
+        </h4>
+      </nav>
+      <input type="search" placeholder="Search" style="position: absolute; left: 905px; top: 55px;"/>
+      <button class="btn btn-outline-success my-0 my-sm-0" onclick="alert('Sorry!!! Cannot perform the action.')"; type="submit" style="position: absolute; left: 1160px; top: 50px;">SEARCH</button>
+    </header>
+    <aside id="add">
+      <p>Avail NOW!!!<br/>50% off<br/>on <a href="https://www.flipkart.com" target="_blank">Flipkart</a> !!!</p>
+    </aside>
+    <h1>
+        <div id="first">
+          <a href="legendplayers.html">
+          <img src="http://www.thelegendssportscomplex.com.onexcale.net/baskeball-logos/Legends%20Basketball%20logo%20(for%20Print).png"
+               height="190px" width="300px" alt="LegendPlayers" style="position: relative; left: 480px;"/>
+          </a>
+          <a href="legendplayers.html" style="position: relative; top:130px; left: 110px;">Legend Players of all time</a>
+          <br/><br/>
+        </div>
+        <div id="second">
+          <a href="FIBA.html">
+          <img src="http://www.acem.sjtu.edu.cn/ueditor/jsp/upload/image/1490239164331076326.png"
+               height="200px" width="330px" alt="FIBA" style="position: relative; top:170px; left: 480px;"/>
+          </a>
+          <a href="FIBA.html" style="position: relative; top:290px; left: -35px;">FIBA (International Basketball Federation)</a>
+          <br/><br/>
+        </div>
+        <div id="third">
+          <a href="NBA.html">
+          <img src="http://www.stickpng.com/assets/images/58428defa6515b1e0ad75ab4.png"
+               height="190px" width="300px" alt="NBA" style="position: relative; top: 390px; left: 480px;"/>
+          </a>
+          <a href="NBA.html" style="position: relative; top:490px; left: 30px;">NBA (National Basketball Association)</a>
+          <br/>
+        </div>
+    </h1>
+    <footer>
+      <p>Copyright&copy; Basketball Encyclopedia&trade; 2018, Made with &hearts; in India, All rights reserved.</p>
+    </footer>
+  </body>
+</html>
